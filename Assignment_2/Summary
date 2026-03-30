@@ -1,0 +1,7 @@
+ Summary of Findings
+
+In this project, an end-to-end sentiment analysis system was developed using NLP preprocessing techniques and machine learning models on the IMDb 50K reviews dataset.
+The text data was cleaned using multiple preprocessing steps including lowercasing, removal of HTML tags, punctuation, and stopwords, followed by tokenization and lemmatization. These steps significantly improved the quality of the text data by reducing noise and standardizing words.
+For feature extraction, TF-IDF vectorization with unigrams and bigrams was used. This helped capture both word importance and contextual relationships between words, leading to better model performance compared to basic methods.
+Three machine learning models were implemented and evaluated: Logistic Regression, Naive Bayes, and Decision Tree. Among them, Logistic Regression achieved the best performance with the highest accuracy and F1 score (around 90%), making it the most suitable model for this task. Naive Bayes performed well with faster computation but slightly lower accuracy, while Decision Tree showed comparatively lower performance due to overfitting.
+Overall, the combination of proper preprocessing, TF-IDF feature engineering, and Logistic Regression resulted in an effective sentiment classification system. This project highlights the importance of text preprocessing and feature selection in improving model accuracy.
