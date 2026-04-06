@@ -1,0 +1,11 @@
+🔹 Differences between POS Tagging and Chunking
+
+POS tagging focuses on assigning a grammatical role to each word in a sentence, like noun, verb, or adjective. Chunking, on the other hand, goes a step further by grouping words into meaningful phrases such as noun phrases or verb phrases. In simple terms, POS tagging works at the word level, while chunking works at the phrase level and needs better understanding of context.
+
+🔹 Challenges Faced
+
+One of the main challenges was dealing with subword tokenization and making sure the labels aligned correctly with the tokens. Handling special tokens using -100 was also tricky at first. Apart from that, setting up the dataset and resolving environment-related issues took some time. Training with limited data while still getting decent performance was another challenge.
+
+🔹 Observations and Insights
+
+I noticed that transformer models like DistilBERT can perform quite well even with a smaller subset of data. Label alignment turned out to be a very important step for getting correct predictions. Compared to chunking, POS tagging felt simpler and more straightforward. Overall, this project helped me understand how much context matters in sequence labeling tasks.
