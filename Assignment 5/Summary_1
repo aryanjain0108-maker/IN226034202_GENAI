@@ -1,1 +1,0 @@
-This project implements a Mini Prompt Engine using LangChain. It converts user inputs into structured prompts using reusable PromptTemplates, supports multiple inputs, prompt variations, chat-based prompts, input validation, and dynamic prompt generation.
